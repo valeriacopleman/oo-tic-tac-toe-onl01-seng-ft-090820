@@ -14,4 +14,8 @@ class TicTacToe
   [6,4,2],
   [0,4,8],]
   
+  def display_board
+    @board
+  end
+  
 end
