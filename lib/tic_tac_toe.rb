@@ -15,7 +15,7 @@ class TicTacToe
   [0,4,8],]
   
   def display_board
-    @board
+    @board = board
   end
   
 end
