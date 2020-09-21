@@ -72,6 +72,9 @@ class TicTacToe
       position_taken?(combo[0])
     end
   end
+  
+  def full? 
+    
       
   
   def over?
