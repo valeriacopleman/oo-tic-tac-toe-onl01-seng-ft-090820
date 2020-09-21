@@ -74,7 +74,11 @@ class TicTacToe
   end
   
   def full? 
-    
+    @board.all do |taken|
+      taken == "X" || taken == "O"
+    end
+  end
+  
       
   
   def over?
