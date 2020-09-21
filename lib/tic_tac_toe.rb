@@ -56,7 +56,10 @@ class TicTacToe
   
   def turn 
     choice = gets.chomp!
-    choice = 
+    position = input_to_index(choice)
+    if valid_move?(position)
+      move(position, player)
+    end
   end
   
 end
