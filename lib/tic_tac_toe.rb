@@ -55,7 +55,8 @@ class TicTacToe
   end
   
   def turn 
-    gets.chomp!
+    choice = gets.chomp!
+    choice = 
   end
   
 end
