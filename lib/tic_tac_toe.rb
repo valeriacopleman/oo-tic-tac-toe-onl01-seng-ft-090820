@@ -79,6 +79,10 @@ class TicTacToe
     end
   end
   
+  def draw?
+    
+end
+  
       
   
   def over?
