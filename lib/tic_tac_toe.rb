@@ -74,7 +74,7 @@ class TicTacToe
       @board[combo[1]] ==
       @board[combo[2]] &&
       
-    end
+    
   end
   
   def over?
