@@ -74,5 +74,28 @@ class TicTacToe
       @board[combo[1]] ==
       @board[combo[2]] &&
       
+    end
+  end
   
+  def over?
+    won? || draw?
+  end
+  
+  def winner
+    if winning_combo = won?
+      @board[winning_combo.first]
+    end
+  end
+  
+  def play
+    while !over?
+      turn
+    end
+    if won?
+      puts "Congratulations #{winner}!"
+      elsif draw?
+        puts "Cat's Game!"
+    end
+  end
+      
 end
